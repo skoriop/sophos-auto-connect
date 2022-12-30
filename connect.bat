@@ -1,2 +1,2 @@
-python3 connect.py
+python connect.py
 start msedge --start-maximized --profile-directory="Default"
