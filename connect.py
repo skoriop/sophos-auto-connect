@@ -1,10 +1,12 @@
 from selenium import webdriver
 from selenium.webdriver import edge
+from creds import u, p
+
+site = 'http://172.16.0.30:8090/httpclient.html'
 
 # Replace with your actual username and password
-site = 'http://172.16.0.30:8090/httpclient.html'
-username = 'xxxxxxxxxxxx'
-password = 'xxxxxxxxxxxx'
+username = u
+password = p
 
 browser = webdriver.Edge()
 browser.get(site)
